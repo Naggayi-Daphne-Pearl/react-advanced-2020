@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 
+// use is a keyword
+// componentname must be uppercase
+// hook must be in function/component body
+// cannot call the hook conditionally
+
 const UseStateBasics = () => {
   // daphne is the default value. 
   const[text, setText] = useState('daphne'); 
